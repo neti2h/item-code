@@ -1,0 +1,47 @@
+<!-- 血糖管理页面 -->
+<!-- 展示表格 -->
+<view class="page_head_title">近期血糖记录</view>
+<view class="page_body_table">
+  <view class="tr">
+      <view class="th th1">日期</view>
+      <view class="th th2">时间</view>
+      <view class="th th3">血糖（mmol/L）</view>
+  </view>
+  <view class="tr" wx:for="{{allrecord}}">
+      <view class="td td1">{{item.data}}</view>
+      <view class="td td2">{{item.time}}</view>
+      <view class="td td3">{{item.bloodsugar}}</view>
+  </view>
+</view>
+
+<!-- 血糖记录按钮 -->
+<view class="page_bottom_button" bindtap="RecordBloodsugar">
+  <image src="../../image/添加.png" mode="aspectFit" class="icon_add"></image>
+  <view>点击记录血糖</view>
+</view>
+
+<!-- 记录弹窗 -->
+<block wx:if="{{isshowrecord}}">
+    <view class='toast_box'>
+        <view class='toast_bg'></view>
+        <view class='toast_show'>
+            <view class='toast_title'>
+                <text>记录血糖值</text>
+            </view>
+            <view class='toast_main'>
+                <view class='toast_input'>
+                    <input type='number' placeholder='mmol/L' bindinput='setValue'></input>
+                </view>
+            </view>
+            <view class='toast_button'>
+                <view class='toast_button1'>
+                    <button catchtap='CancelRecord'>取消</button>
+                </view>
+                <view class='toast_button2'>
+                    <button data-url="../allOrder/allOrder" catchtap='ConfirmRecord'>确定</button>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>
+

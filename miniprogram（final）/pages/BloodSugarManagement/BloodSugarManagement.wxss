@@ -1,0 +1,138 @@
+page{
+  background: #f9f9f9;
+}
+.page_head_title{
+  font-size:35rpx;
+  font-weight: bolder;
+  width: 750rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center; 
+}
+.icon_add{
+  width: 100rpx;
+  height: 100rpx;
+}
+.page_bottom_button{
+  width: 200epx;
+  position: fixed;
+  bottom: 100rpx;
+  left: 275rpx;
+  display:flex;
+  flex-direction: column; 
+  justify-content:center; 
+  align-items:center;
+}
+/* 弹出框 */
+.toast_box {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.toast_bg {
+    opacity: 0.2;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+}
+ 
+.toast_show {
+    position: absolute;
+    opacity: 1;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 40%;
+}
+ 
+.toast_title {
+    padding-left: 5%;
+    background-color: #2196f3;
+    color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-top-right-radius: 16rpx;
+    border-top-left-radius: 16rpx;
+}
+ 
+.toast_main {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: white;
+    text-align: center;
+}
+ 
+.toast_input {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid #ddd;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+ 
+.toast_button {
+    display: flex;
+}
+ 
+.toast_button1 {
+    width: 50%;
+}
+ 
+.toast_button2 {
+    width: 50%;
+}
+ 
+.toast_button1 button {
+    width: 100%;
+    background-color: white;
+    color: red;
+    border-radius: 0px;
+    border-bottom-left-radius: 16rpx;
+}
+ 
+.toast_button2 button{
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 0px;
+    border-bottom-right-radius: 16rpx;
+}
+/* 表格样式 */
+.table{
+  border:1px solid #dadada;
+  border-right:0;
+  border-bottom: 0;
+  width: 98%;
+  margin-left: 1%;
+}
+.tr{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+.th,.td{
+  padding: 10px;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+  width: 100%;
+}
+.th1,.th2,.td1,.td2{
+  width: 40%;
+}
+.th{
+  font-weight: 800;
+  background-color: cadetblue;
+  font-size: 28rpx;
+  color:white;
+}
+.td{
+  background-color:white; 
+  font-size: 25rpx;
+  color: black;
+}

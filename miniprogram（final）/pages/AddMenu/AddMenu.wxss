@@ -1,0 +1,80 @@
+page{
+  background-color: #f9f9f9;
+}
+
+.page_head_reminder{
+  position: relative;
+  width: 750rpx;
+  height: 250rpx;    
+}
+#title_img{
+  width: 750rpx;
+  height: 250rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+#txt{
+  position: absolute;
+  top:100rpx;
+  left: 100rpx;
+  font-weight: bolder;
+  color:white;
+}
+.page_body_block{
+  width:750rpx;
+  height: 50rpx; 
+}
+.add_list{
+  margin-top:10rpx; 
+  display: flex;
+  width:750rpx;
+  height: 85rpx;
+  flex-direction:column;
+  justify-content: space-between;  
+  align-items: center;
+}
+.line{
+  display: flex;
+  height: 85rpx;
+  flex-direction: row;
+  width: 80%;
+  /* background-color:gray;  */
+  align-items: center;
+
+}
+.line_button{
+  width:20%;
+  height: 85%;
+  font-size:30rpx; 
+  margin-left:2%; 
+  background-color: darkseagreen;
+  color: white;
+  border-radius:20rpx; 
+  border: 0;
+}
+.line_icon{
+  width: 15%;
+  height: 100%;
+}
+.line_input{
+  text-align: center;
+  width: 65%;
+  height: 80%;
+  border: 3rpx solid darkseagreen;
+  border-radius: 10rpx;
+  margin-left: 5rpx;
+  margin-top: 5rpx; 
+}
+
+.page_bottom_submit{
+  width: 80%;
+  color:white;
+  background-color:darkseagreen;
+  border-radius:98rpx; 
+  position: fixed;
+  bottom: 20rpx;
+  left: 10%;
+  opacity:0.8;
+}

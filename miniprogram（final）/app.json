@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/Index/Index",
+    "pages/AddMenu/AddMenu",
+    "pages/HistoryFood/HistoryFood",
+    "pages/BloodSugarManagement/BloodSugarManagement",
+    "pages/DailyRecommend/DailyRecommend",
+    "pages/MyInformation/MyInformation",
+    "pages/RecommendAfterTakingPhoto/RecommendAfterTakingPhoto",
+    "pages/ArticleCollection/ArticleCollection",
+    "pages/TakePhoto/TakePhoto",
+    "pages/ArticleDetails/ArticleDetails",
+    "pages/DishCollection/DishCollection",
+    "pages/DishDetails/DishDetails"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "image/menu.png",
+        "iconPath": "image/menu1.png",
+        "pagePath": "pages/DailyRecommend/DailyRecommend",
+        "text": "推荐"
+      },
+      {
+        "selectedIconPath": "image/home.png",
+        "iconPath": "image/home1.png",
+        "pagePath": "pages/Index/Index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "image/my.png",
+        "iconPath": "image/my1.png",
+        "pagePath": "pages/MyInformation/MyInformation",
+        "text": "我的"
+      }
+    ]
+  }
+}

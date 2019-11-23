@@ -1,0 +1,56 @@
+page{
+  background-color: #f9f9f9;
+}
+/* 头像及昵称 */
+.page_head_infomation{
+  margin-top:50rpx; 
+  width: 750rpx;
+  height: 500rpx;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.infomation_frame {
+  text-align: center; 
+}
+.user_info{
+    width:200rpx;
+    height: 200rpx;
+    margin: 0 auto;
+    border-radius: 50%;
+    display:flex;
+    overflow: hidden;
+}
+/* 三栏菜单 */
+.page_body_menu{
+  display: flex;
+  flex-direction:column;
+  width: 750rpx;
+  height: 380rpx;
+  justify-content: space-between;
+}
+.line_frame{
+  width: 100%;
+  height:110rpx; 
+  background-color: white;
+  display: flex;
+}
+.icon_img{
+  width: 50rpx;
+  height: 100%;
+  margin-left:50rpx; 
+}
+.group_frame{
+  margin-left: 50rpx;
+}
+.title_txt{
+  margin-top:15rpx;
+  font-size: 29rpx;
+}
+.content{
+  font-size: 24rpx;
+  color:gray;
+  margin-top:5rpx; 
+}
+
+

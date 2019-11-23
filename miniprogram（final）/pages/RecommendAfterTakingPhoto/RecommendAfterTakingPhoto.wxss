@@ -1,0 +1,65 @@
+page{
+  background-color: #F3F3F3;
+}
+
+.page_head_reminder{
+  display: flex;
+  justify-content:center;
+  width: 100%;
+  height: 100%;
+  font-size: 50rpx;
+  color:darkturquoise;
+}
+.page_middle_foodline{
+  margin-left:10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border:3rpx solid white;
+  border-radius: 5%;
+  padding-bottom: 10px;
+  background-color: white;
+}
+.match_photo{
+ display:flex;                   
+ justify-content: left;  
+ margin-top:20px; 
+ margin-left:10px; 
+}
+.match_photo image { 
+  width:230rpx;
+  height:230rpx;  
+  float: left;
+}
+.match_card{
+  display: flex;
+  flex-direction: column;
+  height: 230rpx;
+  width: 300rpx;
+}
+.match_name{
+  font-size:50rpx;
+  margin-left:5px; 
+  margin-top:10rpx; 
+  color:cadetblue;
+}
+.match_sugar{
+  font-size:25rpx;
+  margin-left:5px;
+  margin-top:5rpx; 
+  color:gray;
+}
+.match_advice{
+  font-size:50rpx;
+  margin-left:5px;
+  margin-top:20rpx; 
+  color:darkgreen;
+  
+}
+
+.match_button{
+  float: right;
+  margin-right: 10rpx;
+  height: 70rpx;
+  margin-top:70rpx; 
+}
+

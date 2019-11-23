@@ -1,0 +1,41 @@
+<!-- 个人中心页面 -->
+<!-- 头像及昵称 -->
+<view class="page_head_infomation">
+  <view class="infomation_frame">
+    <open-data type='userAvatarUrl' class="user_info" mode="cover"></open-data>
+    <open-data type="userNickName"></open-data> 
+  </view>
+</view>
+
+<!-- 三栏菜单  -->
+<view class="page_body_menu">
+  <navigator  url="../BloodSugarManagement/BloodSugarManagement" hover-class="navigator-hover">
+    <view class="line_frame">
+      <image class="icon_img" src="../../image/calendar.png" mode="aspectFit"></image>
+      <view class="group_frame">
+        <view class="title_txt">血糖管理</view>
+        <view class="content">查看您的历史血糖记录</view>
+      </view>
+    </view>
+  </navigator>
+
+  <navigator  url="../ArticleCollection/ArticleCollection" hover-class="navigator-hover">
+    <view class="line_frame">
+      <image class="icon_img" src="../../image/collect.png" mode="aspectFit"></image>
+      <view class="group_frame">
+        <view class="title_txt">我的收藏</view>
+        <view class="content">查看您收藏的文章和菜谱</view>
+      </view>
+    </view>
+  </navigator>
+
+  <navigator  url="../HistoryFood/HistoryFood" hover-class="navigator-hover">
+    <view class="line_frame">
+      <image class="icon_img" src="../../image/food.png" mode="aspectFit"></image>
+      <view class="group_frame">
+        <view class="title_txt">历史食物</view>
+        <view class="content">随时查看您吃了什么</view>
+      </view>
+    </view>
+  </navigator>
+</view>

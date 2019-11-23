@@ -1,0 +1,129 @@
+page{
+  background-color: #f9f9f9;
+}
+/* .TuiJian_tips{
+  width: 750rpx;
+  height: 50rpx;
+  margin-top:10rpx; 
+  border-bottom: 2rpx solid gray;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 15px;
+  color:gray;
+} */
+.page_body_list{
+  display: flex;
+  width: 750rpx;
+  flex-direction:column;
+  align-items: center;
+}
+.card_foodlist{
+  margin-top: 25rpx; 
+  width: 94%;
+  height: 300rpx;
+  border: 1px solid rgba(4, 204, 187, 0.795);
+  display: flex;/*flex布局*/
+  flex-direction: row;/*从左到右水平布局*/
+  background-color: white;
+  justify-content: space-between;/*项目两端对齐*/
+}
+.refresh_but{
+  width: 60%;
+  height: 30%;
+  margin-top: 10%;
+  background-color: transparent;   /*按钮透明*/  
+}
+.refresh_but::after{
+  border: 0;
+}
+.refresh_photo{
+  width: 100%;
+  height: 50%;
+  /* background-color: rosybrown; */
+}
+.disheslist_dishesinfo{
+  display: flex;/*flex布局*/
+  flex-direction: column;/*从上到下布局*/
+  /* background-color: rosybrown; */
+  width: 25%;
+  align-items: center;    /**子view垂直居中*/
+}
+.dishes_name{/*每一餐姓名的具体样式*/
+  text-align: center;/*文字居中*/
+  height: 20%;
+  font-size: 50rpx;
+  margin-top: 5%; 
+  /* background-color: rgb(40, 156, 98);  */
+}
+.dishes_photo{/*图片的样式*/
+  /* background-color: rgb(40, 57, 156); */
+  margin-top: 10%;
+  height: 25%;
+  width: 100%;
+}
+.food_line{/*食物列表的view*/
+  /* background-color: rgb(40, 57, 156); */
+  display: flex;
+  flex-direction: column;/*从上到下布局*/
+  align-items: left;/*左顶格*/
+  width: 45%;
+}
+.foodline_details{/*每一个食物的具体view*/
+  /* background-color: rgb(40, 57, 156); */
+  margin-top:10rpx;/*距离顶部10rpx*/
+  margin-bottom: 10rpx;/*距离底部10rpx*/
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;/*项目主轴方向为水平方向*/
+  justify-content: space-between;/*项目两端对齐*/
+  align-items: center; 
+}
+.foodline_link{
+  margin-top:10rpx;/*距离顶部10rpx*/
+  margin-bottom: 10rpx;/*距离底部10rpx*/
+  /* background-color: rgb(209, 212, 212); */
+  display: flex;
+  flex-direction: row;/*项目主轴方向为水平方向*/
+  justify-content: space-between;/*项目两端对齐*/
+  width: 100%;
+  height:200rpx;
+}
+.details_photo{/*那个向右详情的photo*/
+  /* background-color: rgb(255, 0, 179); */
+  width: 16%;
+  height: 50rpx;
+}
+.add_link{/*加号对应的链接的样式*/
+  /* background-color: red; */
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  width: 77%;
+  height: 33%;
+  background-color:transparent;   /*按钮透明*/  
+  /* display: flex; */
+  /* flex-direction: row;//项目主轴方向为垂直方向  */
+  /* justify-items: center;
+  justify-content: space-between;//项目两端对齐 
+  align-items: center;   */
+}
+.add_link::after
+{
+  border: 0;
+}
+.add_photo{/*那个加号的photo*/
+  /* background-color: rgb(255, 0, 179); */
+  width: 100%;
+  height: 81%;
+}
+/* 水平显示 */
+.add_part{
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  /* background-color: rgb(40, 57, 156); */
+  float: right;
+  position: relative;
+  align-items:center;
+}

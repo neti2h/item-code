@@ -1,0 +1,10 @@
+<!-- 文章的详情页面 -->
+<!-- 文章的标题置顶 -->
+<view class="page_head_title">文章标题</view>
+<!-- 文章的图片 -->
+<view class="article_photo">
+  <image src="../../image/309212.jpg" >
+  </image>
+</view>
+<!-- 文章的内容 -->
+<view class="article_content">文章内容</view>

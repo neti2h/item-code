@@ -1,0 +1,21 @@
+<!-- 首页 -->
+<!-- 轮播图 -->
+<view class="page_head_swiper">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="SwiperChange" class="swiper" >
+    <block wx:for="{{imgUrls}}" wx:key="unique">
+      <swiper-item>
+        <image src="{{item}}" class="swiper_img" bindtap="SwipClick" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<!-- 拍照 -->
+<view class="page_body_camera" bindtap="ChooseWay">
+  <picker bindchange="BindPickerChange" value="{{index}}" range="{{chooseArray}}">
+    <image src="../../image/Camera.png" id="camera_img" mode="aspectFit"></image>
+  </picker>
+</view>
+<view id="camera_txt">点击拍照识别</view>
+
+
+

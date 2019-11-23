@@ -1,0 +1,42 @@
+.controls {
+  position: relative;
+  top: 5%;
+  display: flex;
+}
+.noticeTXT{
+  font-size: 10PX;
+  color: rgb(12, 242, 240);
+  text-align: center
+}
+.camera_chooseimage{
+  display: flex;
+  flex-direction: row;/*从左到右水平布局*/
+  /* background-color:  rgb(12, 242, 240); */
+}
+.takephoto_butt{
+  width: 40%;/*宽度设为view的40%*/
+  margin-top: 20rpx;
+  background-color: rgba(0, 150, 135, 0.288);
+  color: rgb(0, 0, 0);
+  border-radius: 98rpx; 
+}
+/*修改圆角*/
+.takephoto_butt::after{
+  border-radius: 100rpx;
+}
+.chooseimage_butt{
+  width: 40%;/*宽度设为view的40%*/
+  margin-top: 20rpx;
+  background-color: rgba(0, 150, 135, 0.288);
+  color: rgb(0, 0, 0);
+  border-radius: 98rpx; 
+}
+/*修改圆角*/
+.chooseimage_butt::after{
+  border-radius: 100rpx;
+}
+/* .input {
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  flex: 1;
+} */

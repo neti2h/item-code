@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "popup": "/Componet/popup/popup"
+  },
+  "navigationBarTitleText":"今日推荐"
+}

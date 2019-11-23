@@ -1,0 +1,12 @@
+<!--component/popup/popup.wxml-->
+<!-- 弹框 -->
+<view class="popup_body" hidden="{{flag}}">
+  <view class='popup-container'>
+    <view class="popup-title">{{title}}</view>
+    <view class="popup-con">{{content}}</view>
+    <view class="popup-btn">
+      <text class="btn-no" bindtap='_error'>{{btn_no}}</text>
+      <text class="btn-ok" bindtap='_success'>{{btn_ok}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+<!-- 加入菜单页面 -->
+<!-- 顶部文字 -->
+<view class="page_head_reminder">
+  <image id="title_img"src="../../image/标题图2.png" mode="aspectFill"></image>
+  <view id="txt">您可以选择拍照上传或是文字输入菜名</view>
+</view>
+<!-- 列表动态增加的行列 -->
+<view class="page_body_block"></view>
+<view class="add_list" wx:for="{{lineArray}}">
+  <view class="line">
+    <image src="../../image/aui-icon-camera.png" class="line_icon" mode="aspectFit"></image>
+    <input class="line_input" type="txt" placeholder="请输入菜名"></input>
+    <button class="line_button">确定</button>
+  </view>
+</view>
+<!-- 加号行 -->
+<view class="add_list">
+  <view class="line">
+    <image src="../../image/加号.png" class="line_icon" mode="aspectFit" bindtap="PushLine"></image>
+  </view>
+</view>
+<!-- 固定到底部的提交按钮 -->
+  <button class="page_bottom_submit" bindtap="goto">提交</button>
+

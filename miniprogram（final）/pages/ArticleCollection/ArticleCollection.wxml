@@ -1,0 +1,23 @@
+<!-- 文章的收藏页面 -->
+<!-- 下拉框置顶 -->
+<Select class="page_head_array" prop-array='{{selectArray}}'  bind:myget='getDate' bindtap='Navi'></Select>
+<!-- 循环输出收藏的文章的模块 -->
+<view wx:for="{{try}}" wx:for-item="i">
+  <view wx:if="{{(i>0)}}">
+    <view  class="card_article" >
+      <image class="article_photo" src="../../image/309212.jpg"></image>
+      <view class="article_info">
+        <navigator class="article_title" url="../ArticleDetails/ArticleDetails" open-type="navigate">文章标题</navigator>
+        <view class="article_content">文章内容1sdasdsadsad3146</view>
+     </view>
+    </view>
+  </view>
+</view>
+<!-- 单独输出的收藏文章的模块 -->
+<view  class="card_article" >
+<image class="article_photo" src="../../image/309212.jpg"></image>
+  <view class="article_info">
+    <navigator class="article_title" url="../ArticleDetails/ArticleDetails" open-type="navigate">文章标题</navigator>
+    <view class="article_content">文章内容1sdasdsadsad3146</view>
+  </view>
+</view>

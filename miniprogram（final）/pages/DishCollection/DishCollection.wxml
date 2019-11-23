@@ -1,0 +1,11 @@
+<!-- 菜谱的收藏页面 -->
+<!-- 下拉框的置顶 -->
+<Select class="page_head_array" prop-array='{{selectArray}}'  bind:myget='getDate' bindtap='Navi'></Select>
+<!-- 收藏的菜谱模块 -->
+<view class="page_body_list">
+  <image class="dish_photo" src="../../image/xihongshi.jpg"></image>
+  <view class="dish_info">
+    <navigator class="dish_title" url="../DishDetails/DishDetails" open-type="navigate">菜谱标题</navigator>
+    <view class="dish_content">菜谱dsadaskdjsakdajsdasd</view>
+  </view>
+</view>

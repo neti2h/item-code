@@ -1,0 +1,12 @@
+<!-- 拍照页 -->
+<!--pages/camera.wxml-->
+<view class="page_body_camera">
+  <camera mode="normal" device-position="back" flash="auto" binderror="error" style="width:{{ScreenTotalW}}rpx;height:{{ScreenTotalH}}rpx">
+  </camera>
+</view>
+<view class="camera_chooseimage">
+  <button class="chooseimage_butt" bindtap="chooseimage">相册</button>
+  <button class="takephoto_butt" bindtap="takePhoto">拍照</button>
+</view>
+<!-- <camera device-position="back" flash="off" binderror="error" style="width: 100%; height: 1100rpx;">
+</camera> -->

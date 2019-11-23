@@ -1,0 +1,17 @@
+<!-- 拍照识别后的食物推荐食用量的界面 -->
+
+<view class="page_head_reminder">最佳搭配</view>
+<!-- 最佳搭配列表 -->
+<view class="page_middle_foodline">
+  <view class="match_photo">
+    <image src="../../image/苹果.jpg" ></image>
+
+    <!-- 匹配的内容 -->
+    <view class="match_card">
+        <view class="match_name">苹果</view>
+        <view class="match_sugar">含糖量:10.1g/100g</view>
+        <view class="match_advice">建议吃150g</view>
+    </view>
+    <button class="match_button" size="mini">详情</button>
+  </view>
+</view>

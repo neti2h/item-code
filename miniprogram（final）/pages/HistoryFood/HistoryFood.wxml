@@ -1,0 +1,22 @@
+<!-- 历史食物页面 -->
+<!-- 置顶我的食物 -->
+<view class="page_head_reminder">我的食物</view>
+<!-- 输出三个模块看看效果 -->
+<view class="page_body_foodline">
+  <view class="myfood_time">2019-10-4 12:23</view>
+  <view class="myfood_info">
+    <view class="myfood_name">宫保鸡丁</view>
+    <view class="myfood_weight">123g</view>
+    <button class="details_button" size="mini" hover-class="button-hover" bindtap="gotocaipu_detail">详情</button>
+  </view>
+  <view class="myfood_info">
+    <view class="myfood_name">宫保鸡丁</view>
+    <view class="myfood_weight">123g</view>
+    <button class="details_button" size="mini" hover-class="button-hover" bindtap="gotocaipu_detail">详情</button>
+  </view>
+  <view class="myfood_info">
+    <view class="myfood_name">宫保鸡丁</view>
+    <view class="myfood_weight">123g</view>
+    <button class="details_button" size="mini" hover-class="button-hover" bindtap="gotocaipu_detail">详情</button>
+  </view>
+</view>
